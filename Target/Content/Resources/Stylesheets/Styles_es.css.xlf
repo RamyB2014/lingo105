@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="MyVariables.flvar"
+    original="Styles.css"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-flvar"
-    target-language="es">
+    datatype="x-css"
+    target-language="ar">
     <header>
       <skl><external-file
-          href="MyVariables.flvar.skl" /></skl>
+          href="Styles.css.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
@@ -44,40 +44,38 @@
     </header>
     <body><trans-unit
         id="1"
-        restype="x-xml-variable"
-        phase-name="pretrans"><source>Your Company, Inc.</source><seg-source><mrk
+        restype="x-mc-breadcrumbs-prefix"
+        phase-name="pretrans"><source>You are here: </source><seg-source><mrk
             mtype="seg"
-            mid="1">Your Company, Inc.</mrk></seg-source><target
+            mid="1">You are here:</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="2"
-        restype="x-xml-variable"
-        phase-name="pretrans"><source>858 123 4567</source><seg-source><mrk
+        restype="x-mc-label"
+        phase-name="pretrans"><source>SEE ALSO</source><seg-source><mrk
             mtype="seg"
-            mid="1">858 123 4567</mrk></seg-source><target
+            mid="1">SEE ALSO</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="3"
-        restype="x-xml-variable"
-        phase-name="pretrans"><source>Product A</source><seg-source><mrk
+        restype="x-mc-format"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></source><seg-source><mrk
             mtype="seg"
-            mid="1">Product A</mrk></seg-source><target
-          state="needs-translation"><mrk
-            mtype="seg"
-            mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="4"
-        restype="x-xml-variable-datetime"
-        phase-name="pretrans"><source>yyyy</source><seg-source><mrk
-            mtype="seg"
-            mid="1">yyyy</mrk></seg-source><target
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">{para}</ph></mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"

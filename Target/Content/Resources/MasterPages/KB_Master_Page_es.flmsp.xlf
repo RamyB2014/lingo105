@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="Concept.liconceptmap"
+    original="KB_Master_Page.flmsp"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-liconceptmap"
-    target-language="es">
+    datatype="x-flmsp"
+    target-language="ar">
     <header>
       <skl><external-file
-          href="Concept.liconceptmap.skl" /></skl>
+          href="KB_Master_Page.flmsp.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
@@ -44,10 +44,14 @@
     </header>
     <body><trans-unit
         id="1"
-        restype="x-xml-entry"
-        phase-name="pretrans"><source>Article</source><seg-source><mrk
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Copyright © <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="MyVariables.Year" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="MyVariables.CompanyName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> All rights reserved.</source><seg-source><mrk
             mtype="seg"
-            mid="1">Article</mrk></seg-source><target
+            mid="1">Copyright © <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="MyVariables.Year" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="MyVariables.CompanyName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> All rights reserved.</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"

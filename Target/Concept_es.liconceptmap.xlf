@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="KBTable1.css"
+    original="Concept.liconceptmap"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-css"
-    target-language="es">
+    datatype="x-liconceptmap"
+    target-language="ar">
     <header>
       <skl><external-file
-          href="KBTable1.css.skl" /></skl>
+          href="Concept.liconceptmap.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
@@ -31,7 +31,7 @@
         name="MadCap Statistics">
         <count
           count-type="total"
-          unit="segment">0</count>
+          unit="segment">1</count>
         <count
           count-type="x-subflow"
           unit="trans-unit">0</count>
@@ -42,6 +42,16 @@
         tool-version="10.1.6355.6405"
         tool-company="MadCap Software" />
     </header>
-    <body></body>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-entry"
+        phase-name="pretrans"><source>Article</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Article</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
   </file>
 </xliff>
